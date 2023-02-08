@@ -1,11 +1,16 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Map from './components/Map';
+import './index.css';
 
-const App = () => {
+
+function App() {
   return (
-    <div>
-      <h1>Webmap</h1>
+    <div className="App">
+      <Navbar/>
+      <Map/>
     </div>
   );
-};
+}
 
 export default App;
